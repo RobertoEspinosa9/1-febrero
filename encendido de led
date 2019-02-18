@@ -1,0 +1,22 @@
+int LEDA = 7;
+int LEDB = 6;
+int LEDC = 5;
+configuración vacía () {
+ pinMode (LEDA, SALIDA);
+  pinMode (LEDB, SALIDA);
+   pinMode (LEDC, SALIDA);
+ }
+bucle de vacío () {
+escritura digital (LEDA, ALTA);
+retraso (1000);
+escritura digital (LEDA, BAJA);
+retraso (1000);
+escritura digital (LEDB, ALTA);
+retraso (1000);
+escritura digital (LEDB, LOW);
+retraso (1000);
+escritura digital (LEDC, ALTA);
+retraso (1000);
+escritura digital (LEDC, LOW);
+retraso (1000);
+}
